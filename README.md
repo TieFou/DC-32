@@ -1,43 +1,42 @@
 # DC-32
 
-**DC-32** 是一架基于 **MD-11 / MD-11F** 的虚拟巨型客机（FlightGear 机模项目）。
+**DC-32** is a virtual giant airliner project for **FlightGear**, based on the **MD-11 / MD-11F**.
 
-> 来自"铁飞与小豆"虚构故事中的五发巨兽——四发贴机翼、一发垂尾，三层超大容量。
+> Born from a fictional story — a five-engine monster: four under the wings, one mounted at the tail. Triple-deck, enormous capacity.
 
-## ✈️ 飞机设定
+## ✈️ Aircraft Concept
 
-| 项目 | 设定 |
+| Item | Spec |
 |---|---|
-| 底子 | MD-11 / MD-11F |
-| 发动机 | 五发（4 × 翼下 + 1 × 垂尾） |
-| 容量 | 普通上客 900+ 人，最大 1244 人 |
-| 货运版 | 联邦快递改装，最大载重 572 吨，机头可掀开 |
-| 定位 | 虚拟巨型宽体客机（"空中宿舍"级） |
+| Base | MD-11 / MD-11F |
+| Engines | 5 (4 × under-wing + 1 × tail engine, S-duct intake) |
+| Capacity | 900+ passengers standard, up to 1,244 |
+| Freighter (DC-32F) | FedEx-style conversion, up to 572 t payload, hinged opening nose |
+| Class | Virtual mega widebody ("flying dormitory") |
 
-## 🗺️ 故事线（为什么要造这架飞机）
+## 🗺️ The Story
 
-在虚构的平行世界里，麦道没有并入波音，反而吞并了空客与洛克希德——
-于是有了这台超越 A380 白海豚的 **DC-32**：五发、三层、超远程、超大载量。
-联邦快递还改装了货运版（DC-32F），拆掉座椅、掀开机头，载重冲到 572 吨。
+In a fictional timeline, McDonnell Douglas never merged into Boeing — instead it absorbed Airbus and Lockheed. The result: the **DC-32**, a five-engine, triple-deck, ultra-long-range giant that dwarfs even the A380 "Beluga". FedEx later ordered the freighter version (**DC-32F**): seats stripped, nose hinged open, payload pushed to 572 tons.
 
-## 📌 项目状态
+## 📌 Project Status
 
-- [x] 仓库立项
+- [x] Repository created
 - [x] README
-- [ ] 基于 MD-11 / MD-11F 的机模改造方案
-- [ ] 机身加长 / 五发布局
-- [ ] 涂装与货运版（DC-32F）
+- [ ] MD-11 / MD-11F based airframe conversion plan
+- [ ] Fuselage stretch / triple-deck layout
+- [ ] Five-engine configuration
+- [ ] Liveries & freighter version (DC-32F)
 
-## 🛠️ 技术路线（草案）
+## 🛠️ Technical Roadmap (Draft)
 
-1. 以 MD-11 / MD-11F 机模为底子（FG 可加载的 .xml 模型）
-2. 改造机身：加长 + 三层客舱结构
-3. 动力：4 发翼下 + 1 发垂尾（参考 YACS 气动模型）
-4. 货运版：掀开机头 + 货舱布局（DC-32F）
+1. Start from the MD-11 / MD-11F aircraft model (FG-loadable .xml airframe)
+2. Stretch the fuselage: longer + triple-deck cabin structure
+3. Powerplant: 4× under-wing + 1× tail engine (YACS-style flight model as reference)
+4. Freighter: hinged nose + cargo layout (DC-32F)
 
-## 📜 许可
+## 📜 License
 
-GPL v2（沿用 FG 机模社区惯例）
+GPL v2 (following FlightGear community convention)
 
 ---
-*铁飞 ✈️ 小豆 —— 把 2 万字的故事，写成能飞的代码。*
+*TieFou ✈️ XiaoDou — turning a 2-million-word story into flyable code.*
